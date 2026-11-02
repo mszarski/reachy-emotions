@@ -44,7 +44,7 @@ Four stages, each with one name used throughout:
  LISTENER (rules, no model, in its chosen style) ── leans in, nods at your pauses, perks antennas ──► head pose while you talk
    │ when you stop: the recording goes to the server
    ▼
- HEARING     Whisper-small ─► words          tone models (WavLM) ─► tone: feeling + arousal/valence/dominance
+ HEARING     Whisper ─► words                tone models (WavLM) ─► tone: feeling + arousal/valence/dominance
    │                                            └─ per-session calibration (mic and room levels)
    ▼
  RESPONDER   the student (Qwen3-4B fine-tune, 8-bit GGUF on llama.cpp), one call, streamed:

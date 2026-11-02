@@ -31,7 +31,7 @@ short_description: Type a prompt, watch Reachy Mini perform it in 3D
 Type what Reachy Mini should express, or hold the mic button and talk to it, and watch it listen and respond in 3D.
 Speech: Whisper and speech-emotion models hear the words and the tone, and a fine-tuned 4B voice student answers with
 a response and a motion recipe. Typed prompts: a zero-shot LLM planner writes the recipe. A 21.8M flow-matching
-generator turns it into 25 Hz motion, and every frame is projected onto what the robot can reach. Source: rmr/server.py in github.com/mszarski/claude_playground.
+generator turns it into 25 Hz motion, and every frame is projected onto what the robot can reach. Source: rmr/server.py in github.com/mszarski/reachy-emotions.
 """
 
 

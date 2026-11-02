@@ -98,13 +98,3 @@ gotchas already handled in `app.js`/`SceneManager.js`/`style.css`; keep them whe
   `env(safe-area-inset-bottom)`.
 - Lower pixel ratio and plain PCF shadows on touch devices (Safari drops heavy WebGL contexts; `webglcontextlost`
   shows a message); a `ResizeObserver` handles toolbar slide and rotation.
-
-## Issue Tracking
-
-Use the `bd` command for issue tracking instead of markdown TODOs (the session-start hook installs it):
-```bash
-bd create "Task description" -p 1 --json
-bd ready --json
-bd update <id> --status in_progress --json
-bd show <id> --json
-```
