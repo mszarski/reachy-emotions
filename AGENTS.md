@@ -1,10 +1,4 @@
-## Issue Tracking
+# AGENTS.md
 
-Use the `bd` command for all issue tracking instead of markdown TODOs:
-
-- Create issues: `bd create "Task description" -p 1 --json`
-- Find work: `bd ready --json`
-- Update status: `bd update <id> --status in_progress --json`
-- View details: `bd show <id> --json`
-
-Use `--json` flags for programmatic parsing.
+Instructions for coding agents live in [CLAUDE.md](CLAUDE.md): project overview, commands, conventions,
+Python/JS parity rules, viewer notes and `bd` issue tracking. Read it first.
