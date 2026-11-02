@@ -1,5 +1,9 @@
 # Session handoff
 
+> **Note:** this handoff was written in the old `mszarski/claude_playground` monorepo, before the project moved here.
+> References to that repo, its `claude/...` branches, `trajectory_classifier`, the `bd` tracker, or "don't edit
+> CLAUDE.md" are out of date. Where this file and CLAUDE.md disagree, CLAUDE.md wins.
+
 Notes for a fresh Claude session picking up this project, written at the end of the long session that built it
 (branch `claude/great-tesla-ln84m6` of `mszarski/claude_playground`, moving to its own repo). Read this, then
 `CLAUDE.md`, `README.md`, `docs/ROADMAP.md` and `docs/results/voice.md`. Most of the reasoning below exists nowhere else.

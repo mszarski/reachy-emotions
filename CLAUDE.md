@@ -149,7 +149,7 @@ gotchas already handled in `app.js`/`SceneManager.js`/`style.css`; keep them whe
   first, then offer next steps.
 - Asked "what's next": a short numbered list of options with a recommendation. They often reply "do all of them" or
   pick numbers.
-- Happy for long autonomous runs (they've been away for days): keep going, commit as you go, report when asked.
+- Happy for long autonomous runs (they've been away for days): keep going, commit and push as you go, report when asked.
 - They value real model improvements over hacks, open licences (Apache/MIT models, licence-clean data), and being
   runnable locally on open weights.
 - Their ratings beat any automatic score. Rating tools must never repeat clips (they noticed the duel page doing it).
